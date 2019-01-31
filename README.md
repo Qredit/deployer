@@ -1,14 +1,14 @@
-![ARK-DESKTOP](https://user-images.githubusercontent.com/8069294/35097070-78c0dc40-fc46-11e7-9bb0-ad36f7182f39.png)
+![Qredit-DESKTOP](https://user-images.githubusercontent.com/8069294/35097070-78c0dc40-fc46-11e7-9bb0-ad36f7182f39.png)
 
 ## Prerequisites
 
-- Because the ARK Node is recommended to be run on Ubuntu 16 (see the [node guide](https://blog.ark.io/how-to-setup-a-node-for-ark-and-a-basic-cheat-sheet-4f82910719da)), we recommend that the deployer is only run on Ubuntu 16 also.
+- Because the Qredit Node is recommended to be run on Ubuntu 16 (see the [node guide](https://blog.Qredit.io/how-to-setup-a-node-for-Qredit-and-a-basic-cheat-sheet-4f82910719da)), we recommend that the deployer is only run on Ubuntu 16 also.
 - User running the deployer commands must be a sudoer
 
 ## Installation
 
 ```bash
-git clone https://github.com/ArkEcosystem/ark-deployer.git && cd ark-deployer
+git clone https://github.com/Qredit/Qredit-deployer.git && cd Qredit-deployer
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 source ~/.profile
 nvm install 8.9.1
@@ -17,7 +17,7 @@ sudo apt-get update && sudo apt-get install -y jq
 
 ## Detailed Guide
 
-Follow this [full guide](https://blog.ark.io/ark-deployer-setup-guide-c10825ebb0e4) to get the best out of your Bridgechain.
+Follow this [full guide](https://blog.Qredit.io/Qredit-deployer-setup-guide-c10825ebb0e4) to get the best out of your Bridgechain.
 
 ## Quick setup with Vagrant
 Deploy a bridgechain and explorer within its own Vagrant setup. This requires vagrant version 2 and up.
@@ -25,7 +25,7 @@ Deploy a bridgechain and explorer within its own Vagrant setup. This requires va
 1. Install Vagrant on your local computer
 2. Clone the ark-deployer from our repository
 ```bash
-$> git clone https://github.com/ArkEcosystem/ark-deployer.git && cd ark-deployer
+$> git clone https://github.com/Qredit/Qredit-deployer.git && cd Qredit-deployer
 ```
 3. Run the vagrant command
 ```bash
@@ -42,7 +42,7 @@ Deploy a bridgechain and explorer within its own Docker setup.
 1. Install Docker on your local computer
 2. Clone the ark-deployer from our repository
 ```bash
-$> git clone https://github.com/ArkEcosystem/ark-deployer.git && cd ark-deployer
+$> git clone https://github.com/Qredit/Qredit-deployer.git && cd Qredit-deployer
 ```
 3. Build the docker image
 ```bash
@@ -64,7 +64,7 @@ Explorer (port forwarded): `http://127.0.0.1:4200/`
 *Note: Change <MACHINE_IP> to your Machine's IP*
 
 ```bash
-./bridgechain.sh install-node --name MyTest --database ark_mytest --token MYTEST --symbol MT --node-ip <NODE_IP>
+./bridgechain.sh install-node --name MyTest --database Qredit_mytest --token MYTEST --symbol MT --node-ip <NODE_IP>
 ./bridgechain.sh start-node --name MyTest
 ```
 
@@ -145,7 +145,7 @@ To use a config file during an install, simply use the `--config` argument. For 
 
 ## Security
 
-If you discover a security vulnerability within this project, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this project, please send an e-mail to security@Qredit.io. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
